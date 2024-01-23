@@ -11,5 +11,8 @@ def exponent(base, exp):
 
     return result
 
-    
 # Test cases
+base = 2
+exp = 3
+result = exponent(base, exp)
+print(f"{base} raised to the power of {exp} is: {result}")
